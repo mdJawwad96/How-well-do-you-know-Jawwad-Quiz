@@ -2,6 +2,7 @@ var readlineSync = require("readline-sync");
 
 //score
 var score = 0;
+var highScore = 10;
 var usrName = readlineSync.question("What's your name?");
 
 console.log("Welcome" + usrName + "to how well do you know Jawwad?");
